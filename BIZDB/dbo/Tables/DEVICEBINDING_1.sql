@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[DEVICEBINDING] (
+    [seq_no]               BIGINT         NOT NULL,
+    [bind_type]            VARCHAR (255)  NULL,
+    [brand]                VARCHAR (255)  NULL,
+    [created_date]         DATE           NULL,
+    [created_time]         TIME (7)       NULL,
+    [device_model]         VARCHAR (255)  NULL,
+    [device_name]          VARCHAR (255)  NULL,
+    [device_serial_number] VARCHAR (255)  NULL,
+    [device_type]          VARCHAR (255)  NULL,
+    [idgateid]             VARCHAR (255)  NULL,
+    [os_version]           VARCHAR (255)  NULL,
+    [status]               VARCHAR (255)  NULL,
+    [update_date]          DATE           NULL,
+    [update_time]          TIME (7)       NULL,
+    [uuid]                 VARCHAR (255)  NULL,
+    [add_book]             VARCHAR (255)  NULL,
+    [country_code]         VARCHAR (255)  NULL,
+    [device_uuid]          VARCHAR (255)  NULL,
+    [ip]                   VARCHAR (255)  NULL,
+    [manufacturer]         VARCHAR (255)  NULL,
+    [network_code]         VARCHAR (255)  NULL,
+    [network_type]         VARCHAR (255)  NULL,
+    [product_name]         VARCHAR (255)  NULL,
+    [telecom_name]         NVARCHAR (255) NULL,
+    PRIMARY KEY CLUSTERED ([seq_no] ASC)
+);
+

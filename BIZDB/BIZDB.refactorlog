@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e31e6c66-f6f0-413c-93d6-e933728c0a90" ChangeDateTime="03/04/2020 05:38:21">
+    <Property Name="ElementName" Value="[BaseSetting].[CodeBook].[Par]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[BaseSetting].[CodeBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ParentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="13348594-1559-49a3-92c8-3a35fb6060ce" ChangeDateTime="03/04/2020 05:43:13">
+    <Property Name="ElementName" Value="[BaseSetting].[CodeBook].[[Description]] ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[BaseSetting].[CodeBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f5d1137-4cf4-455e-b708-7af3dab59e18" ChangeDateTime="03/04/2020 05:44:17">
+    <Property Name="ElementName" Value="[BaseSetting].[CodeBook].[Parent]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[BaseSetting].[CodeBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ParentId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="343a2e4a-612e-4519-944f-c54633907f32" ChangeDateTime="03/04/2020 07:03:00">
+    <Property Name="ElementName" Value="[BaseSetting].[CodeBook].[Grop]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[BaseSetting].[CodeBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Group" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7d66aa48-c8fe-417f-9c83-2ca376edafea" ChangeDateTime="03/04/2020 08:11:29">
+    <Property Name="ElementName" Value="[BaseSetting].[CodeBook].[CodeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[BaseSetting].[CodeBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CodeId" />
+  </Operation>
+</Operations>
